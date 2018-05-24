@@ -21,7 +21,7 @@
   limitations under the License.
 -->
 <head>
-<title>{{ page.title }}</title>
+<title>Share-RED</title>
 <link rel="icon" type="image/png" href="{{ page.favicon }}">
 <link rel="mask-icon" href="{{ page.tabicon }}" color="#8f0000">
 <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -29,12 +29,41 @@
 <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
 <link rel="stylesheet" href="vendor/vendor.css">
 <link rel="stylesheet" href="red/style.min.css">
+<link rel="stylesheet" href="css/style.css">
+
 {{#page.css}}
 <link rel="stylesheet" href="{{.}}">
 {{/page.css}}
 
 </head>
 <body spellcheck="false">
+  <header id="page-header" role="banner">
+    <div class="container">
+        <section id="branding">
+            <img src="share-logo.jpg" class="share-logo">
+            <h1><a class="fill" href="http://www.share-research.org/" title="SHARE" rel="home">SHARE</a></h1>
+        </section>
+
+        <nav id="main-nav" role="navigation">
+            <div class="menu-main-navigation-container">
+                <ul id="menu-main-navigation" class="menu">
+                    <li id="menu-item-12" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-12"><a href="http://www.share-research.org/about/about-share/">About SHARE</a>
+                        <ul class="sub-menu">
+                            <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21"><a href="http://www.share-research.org/about/our-team/">Our Team</a></li>
+                            <li id="menu-item-25" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-25"><a href="http://www.share-research.org/about/our-team/#Stakeholders-Committee">Stakeholders</a></li>
+                        </ul>
+                    </li>
+                    <li id="menu-item-29" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29"><a href="http://www.share-research.org/projects/projects-and-partners/">Projects and Partners</a></li>
+                    <li id="menu-item-32" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32"><a href="http://www.share-research.org/news/">News</a></li>
+                    <li id="menu-item-52" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52"><a href="http://www.share-research.org/contact/contact-share/">Contact</a></li>
+                </ul>
+            </div>
+            <a class="handle icon"></a>
+            <a class="fill"></a>
+        </nav>
+    </div>
+    <!-- .container -->
+</header>
 <div id="header">
     <span class="logo">{{#header.url}}<a href="{{.}}">{{/header.url}}{{#header.image}}<img src="{{.}}" title="{{version}}">{{/header.image}} <span>{{ header.title }}</span>{{#header.url}}</a>{{/header.url}}</span>
     <ul class="header-toolbar hide">
