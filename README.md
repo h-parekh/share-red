@@ -7,7 +7,9 @@ http://nodered.org
 
 A visual tool for wiring the Internet of Things.
 
-![Node-RED: A visual tool for wiring the Internet of Things](http://nodered.org/images/node-red-screenshot.png)
+![Node-RED: A visual tool for wiring the Internet of Things](https://image.ibb.co/bPkAJ8/share_ui.png)
+
+
 
 ## Quick Start
 
