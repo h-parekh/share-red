@@ -1,5 +1,5 @@
 {
-  "name": "node-red-node-example",
+  "name": "share-lower-case",
   "version": "1.0.0",
   "description": "",
   "main": "lower-case.js",
