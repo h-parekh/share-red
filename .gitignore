@@ -4,6 +4,7 @@
 .jshintignore
 .npm
 .project
+.projects
 .sessions.json
 .settings
 .tern-project
