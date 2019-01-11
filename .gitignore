@@ -1,11 +1,13 @@
 .DS_store
 .config.json
+.config.json.backup
 .dist
 .jshintignore
 .npm
 .project
 .sessions.json
 .settings
+settings.js
 .tern-project
 *.backup
 *_cred*
