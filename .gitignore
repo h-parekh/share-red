@@ -4,7 +4,6 @@
 .jshintignore
 .npm
 .project
-.projects
 .sessions.json
 .settings
 .tern-project
@@ -23,3 +22,4 @@ packages/node_modules/@node-red/editor-client/public
 !test/**/node_modules
 docs
 !packages/node_modules/**/docs
+projects
